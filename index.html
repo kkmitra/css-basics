@@ -17,8 +17,8 @@
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 100;
             /* background-color: #ffff00; */
-            display: grid;
-            grid-template-rows: 20% 70% 10%;
+            /* display: grid;
+            grid-template-rows: 15% 70% 10%; */
         }
         .container {
             max-width: 640px;
@@ -40,7 +40,12 @@
             text-decoration: none;
             list-style-type: none;
             display: flex;
+            flex-wrap: wrap;
             margin: 2em 2em 1em 0;
+        }
+
+        .container li {
+            margin: 1em;
         }
 
         a {
@@ -53,7 +58,7 @@
             width: 50px;
             height: 50px;
             padding: 1em;
-            margin: 1em 0.5em;
+            margin: 1em;
             border: 1px solid black;
         }
         .btn:hover {
@@ -64,6 +69,7 @@
 
         .footer {
             text-align: center;
+            margin-top: 5em;
         }
 
         .link {

@@ -40,7 +40,7 @@ body {
 }
 
 .banner {
-    height: 40vh;
+    height: 60vh;
     /* margin-bottom: 1em; */
     background-color: #06a3cc;
     background-position: center;
@@ -60,7 +60,7 @@ body {
 }
 
 .main-content {
-    height: 40vh;
+    height: 60vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -73,7 +73,7 @@ body {
 
 .content {
     background-color: #d39ed6;
-    padding: 1em;
+    padding: 2em;
     height: 100%;
     margin-left: -150px;
 }
@@ -83,12 +83,35 @@ body {
 }
 
 .contact-form {
+    padding: 1em;
     height: 70%;
     background-color: #ed8719;
+}
+
+.contact-form input {
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    background-color: #ed8719;
+    border: 1px solid white;
+    color: white;
 }
 
 .extra-content {
     height: 30%;
     background-color: #8ae33b;
+    padding: 1em;
+}
+
+.footer {
+    display: flex;
+    height: 4rem;
+    background-color: #06a3cc;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer div {
+    margin: 0.5em;
+    color: white;
 }
 

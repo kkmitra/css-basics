@@ -6,41 +6,44 @@
 		* {
 			margin: 0;
 			padding: 0;
+			box-sizing: border-box;
 		}
 		body {
-			height: 100vh;
-			display: grid;
-			/* overflow: hidden; */
-			grid-template-rows: 15% 70% 15%;
-			grid-gap: 0.5em;
-		}
-
-		.content {
-			display: grid;
-			grid-template-columns: 3fr 1fr;
-			grid-gap: 0.5em;
+			min-height: 100vh;
+			width: 100vw;
+			display: flex;
+			flex-wrap: wrap;
 		}
 
 		.navbar {
 			background-color: #ff4da6;
+			min-height: 10vh; 
+			flex: 1 0 100%;
+			margin-bottom: 0.5em; 
 		}
 		.main {
 			background-color: #ff037e;
+			min-height: 80vh; 
+			flex: 1 0 74%;
+			margin-right: 0.5em; 
 		}
 		.sidebar {
 			background-color: #ce0468;
+			min-height: 80vh; 
+			flex: 1 0 25%; 
 		}
 		.footer {
 			background-color: #802755;
+			min-height: 10vh;
+			flex: 1 0 100%;
+			margin-top: 0.5em; 
 		}
 	</style>
 </head>
 <body>
 	<div class="navbar"></div>
-	<div class="content">
-		<div class="main"></div>
-		<div class="sidebar"></div>
-	</div>
+	<div class="main"></div>
+	<div class="sidebar"></div>
 	<div class="footer"></div>
 </body>
 </html>

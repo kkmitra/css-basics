@@ -6,13 +6,15 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    display: grid;
+    /* display: grid; */
 }
 
 .navbar {
     background-color: #d9d9d9;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    /* display: grid;
+    grid-template-columns: 2fr 1fr; */
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo {
@@ -61,25 +63,28 @@ body {
 
 .main-content {
     height: 60vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
 }
 
 .left {
     background-color: #ffe469;
     padding: 2em 5em 1em;
     margin-left: 100px;
+    flex: 1 0 40%;
 }
 
 .content {
     background-color: #d39ed6;
-    padding: 2em;
+    /* padding: 2em; */
     height: 100%;
     margin-left: -150px;
 }
 
 .right {
     height: 100%;
+    flex: 1 0 50%;
 }
 
 .contact-form {
@@ -91,15 +96,14 @@ body {
 .contact-form input {
     padding: 0.5em 1em;
     margin-bottom: 0.5em;
-    background-color: #ed8719;
-    border: 1px solid white;
+    background-color: #f8af49;
+    border: 1px solid #f9c591;
     color: white;
 }
 
 .extra-content {
     height: 30%;
     background-color: #8ae33b;
-    padding: 1em;
 }
 
 .footer {

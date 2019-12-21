@@ -8,14 +8,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #e70000;
     min-height: 100vh;
-    display: grid;
-    grid-template-rows: 50% 50%;
+    /* display: grid;
+    grid-template-rows: 50% 50%; */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header {
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    flex: 1 0 100%;
 }
 
 .logo-section {
@@ -31,8 +34,9 @@ body {
 
 .main-content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px; */
+    display: flex;
 }
 
 .left, .center, .right {
@@ -42,6 +46,9 @@ body {
 
 .block {
     padding: 3em 0 0 2em;
+    flex-basis: 1 0 30%;
+    border: 2px solid #e70000;
+    /* margin-right: 1em; */
 }
 
 h1 {

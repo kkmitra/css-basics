@@ -105,9 +105,8 @@ body {
     max-width: 960px;
     min-height: 50vh;
     margin: 3em auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
+    display: flex;
+    justify-content: space-around;
 }
 
 .content {
@@ -193,6 +192,8 @@ img {
     width: 40px;
     height: 40px;
 }
+
+
 
 
 

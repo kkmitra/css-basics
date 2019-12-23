@@ -402,6 +402,7 @@ img {
 .footer .body {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1em;
 }
 
 .footer .heading {
@@ -436,5 +437,14 @@ img {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     background-color: #d0a904;
+}
+
+.footer hr {
+    margin-bottom: 1em;
+
+}
+
+.copyright {
+    text-align: center;
 }
 

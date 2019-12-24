@@ -45,7 +45,7 @@ body {
 }
 
 .block {
-    padding: 3em 0 0 2em;
+    padding: 3em 2em 0 2em;
     flex-basis: 1 0 30%;
     border: 2px solid #e70000;
     /* margin-right: 1em; */
